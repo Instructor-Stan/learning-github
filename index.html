@@ -22,8 +22,22 @@
                     under the "Code" button in the repository you want to clone.</li>
                 <li>Type "cd &lt;directory&gt; where directory is the part of the name you cloned between the last slash (/) and ".git" on the end. Ex. learning-github</li>
                 <li>Type "git status" to confirm git knows about your files.</li>
-                <li>Type "code ." to start VS Code editor and open the directory you just cloned. (Now change some code.)</li>
+                <li>Type "code ." to start VS Code editor and open the directory you just cloned. (Now change some code. I created a new file "index.html")</li>
                 <li>Type "git status" to see that git has acknowledged your changes and git prompts you to the next step(s).</li>
+                <li>Type "git add index.html" to add a new file "index.html" to the repository.</li>
+                <li>Type "git commit -m "Your comments describing all your changes so the approver will know what changes to look for."</li>
+                <li>Type "git push origin main" to send your changes to the github web repository. The origin was set to "origin" with the "git clone" command and since
+                    we did not create a branch, you will send your changes to the "main" branch. Your code changes should now be viewable on github (the web tool.)</li>
+            </ul>
+        </p>
+        <p>
+            Updating github with your changes.
+            <ul>
+                <li>Type "git status" to see that git has acknowledged your changes and git prompts you to the next step(s).</li>
+                <li>Type "git add index.html" to add a new file "index.html" to the repository. If you have no new files, you can skip this step.</li>
+                <li>Type "git commit -m "Your comments describing all your changes so the approver will know what changes to look for."</li>
+                <li>Type "git push origin main" to send your changes to the github web repository. The origin was set to "origin" with the "git clone" command and since
+                    we did not create a branch, you will send your changes to the "main" branch. Your code changes should now be viewable on github (the web tool.)</li>
             </ul>
         </p>
     </body>
